@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.20.0 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkWindow" id="Gtk_Janela_Principal">
+    <property name="width_request">810</property>
+    <property name="height_request">600</property>
+    <property name="can_focus">False</property>
+    <property name="title" translatable="yes">Sistema de Bibliotecas Municipais - V1.0</property>
+    <property name="default_width">810</property>
+    <property name="default_height">600</property>
+    <child>
+      <object class="GtkFixed">
+        <property name="width_request">810</property>
+        <property name="height_request">600</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkLayout" id="Gtk_Ctnr_SisBib_Imagem1">
+            <property name="width_request">265</property>
+            <property name="height_request">265</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="width">265</property>
+            <property name="height">265</property>
+          </object>
+          <packing>
+            <property name="x">273</property>
+            <property name="y">136</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLayout" id="Gtk_Cntr_Nome_Sistema">
+            <property name="width_request">355</property>
+            <property name="height_request">28</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="width">355</property>
+            <property name="height">28</property>
+            <child>
+              <object class="GtkLabel" id="Gtk_Nome_SisBib">
+                <property name="width_request">355</property>
+                <property name="height_request">28</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Sistema de Bibliotecas Municipais</property>
+                <attributes>
+                  <attribute name="font-desc" value="Arial Bold 16"/>
+                </attributes>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="x">237</property>
+            <property name="y">424</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLayout" id="Gtk_Cntr_Nome_Desenvolvedor">
+            <property name="width_request">217</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="width">217</property>
+            <property name="height">20</property>
+            <child>
+              <object class="GtkLabel" id="Gtk_Nome_Desenvolvedor">
+                <property name="width_request">217</property>
+                <property name="height_request">16</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Desenvolvido por Antonio Atta</property>
+                <attributes>
+                  <attribute name="font-desc" value="Arial 12"/>
+                </attributes>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="x">299</property>
+            <property name="y">468</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLayout" id="Gtk_Cntr_Copyright">
+            <property name="width_request">350</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="width">310</property>
+            <property name="height">20</property>
+            <child>
+              <object class="GtkLabel" id="Gtk_Copyright">
+                <property name="width_request">223</property>
+                <property name="height_request">16</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Copyright @ 2017 - Todos os direitos reservados</property>
+                <attributes>
+                  <attribute name="font-desc" value="Arial 12"/>
+                </attributes>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="x">234</property>
+            <property name="y">489</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLayout" id="Gtk_Cntr_Link_Principal">
+            <property name="width_request">140</property>
+            <property name="height_request">30</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="width">115</property>
+            <property name="height">18</property>
+            <child>
+              <object class="GtkLabel" id="Gtk_Link_Principal">
+                <property name="width_request">115</property>
+                <property name="height_request">18</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">www.software.com</property>
+                <attributes>
+                  <attribute name="font-desc" value="Arial 10"/>
+                  <attribute name="style" value="normal"/>
+                  <attribute name="underline" value="True"/>
+                  <attribute name="foreground" value="#34346565a4a4"/>
+                </attributes>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="x">344</property>
+            <property name="y">530</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkMenuBar">
+            <property name="width_request">810</property>
+            <property name="height_request">25</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <child>
+              <object class="GtkMenuItem">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">_Arquivo</property>
+                <property name="use_underline">True</property>
+                <child type="submenu">
+                  <object class="GtkMenu">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <child>
+                      <object class="GtkImageMenuItem">
+                        <property name="label">gtk-new</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_underline">True</property>
+                        <property name="use_stock">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem">
+                        <property name="label">gtk-open</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_underline">True</property>
+                        <property name="use_stock">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem">
+                        <property name="label">gtk-save</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_underline">True</property>
+                        <property name="use_stock">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem">
+                        <property name="label">gtk-save-as</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_underline">True</property>
+                        <property name="use_stock">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSeparatorMenuItem">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem">
+                        <property name="label">gtk-quit</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_underline">True</property>
+                        <property name="use_stock">True</property>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkMenuItem">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">_Editar</property>
+                <property name="use_underline">True</property>
+                <child type="submenu">
+                  <object class="GtkMenu">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <child>
+                      <object class="GtkImageMenuItem">
+                        <property name="label">gtk-cut</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_underline">True</property>
+                        <property name="use_stock">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem">
+                        <property name="label">gtk-copy</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_underline">True</property>
+                        <property name="use_stock">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem">
+                        <property name="label">gtk-paste</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_underline">True</property>
+                        <property name="use_stock">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem">
+                        <property name="label">gtk-delete</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_underline">True</property>
+                        <property name="use_stock">True</property>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkMenuItem">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">_Ver</property>
+                <property name="use_underline">True</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkMenuItem">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Aj_uda</property>
+                <property name="use_underline">True</property>
+                <child type="submenu">
+                  <object class="GtkMenu">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <child>
+                      <object class="GtkImageMenuItem">
+                        <property name="label">gtk-about</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_underline">True</property>
+                        <property name="use_stock">True</property>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkLayout" id="Gtk_Cntr_Botao_Sair_Principal">
+            <property name="width_request">90</property>
+            <property name="height_request">34</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="width">90</property>
+            <property name="height">34</property>
+            <child>
+              <object class="GtkButton" id="Gtk_Botao_Sair_Principal">
+                <property name="label" translatable="yes">Sair</property>
+                <property name="width_request">90</property>
+                <property name="height_request">34</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="x">683</property>
+            <property name="y">536</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
